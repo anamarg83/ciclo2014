@@ -216,7 +216,7 @@ body {
 }
 
 #slide-1 {
-	background-image: url('../images/bg1.jpg');
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/0/02/Feup.JPG);
 	color: #ffffff;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -302,13 +302,19 @@ body {
 }
 
 #slide-2 {
-	background-color: #1abc9c;
-	color: #e4e6e5;
+/*	background-color: #1abc9c;
+	color: #e4e6e5;*/
+	background-color: #e4e6e5;
+	color: #555;
 	padding-top: 90px;
 }
 
+	#image-top-slide{
+		padding-bottom: 90px;
+	}
+
 	.title-row {
-		font-size: 45px;
+		font-size: 20px;
 		padding-bottom: 50px;
 	}
 	
@@ -438,7 +444,7 @@ body {
 }
 
 #slide-4 {
-	background-color: #34495e;
+	background-color: #f39c12;
 	color: #e4e6e5;
 	padding-top: 90px;
 }
@@ -450,7 +456,7 @@ body {
 
 
 #slide-5 {
-	background-color: #f39c12;
+	background-color: #5F83BB;
 	color: #e4e6e5;
 	padding-top: 90px;
 }
@@ -609,4 +615,37 @@ body {
 
 .navigation-slide {
 	cursor: pointer;
+}
+
+#resume {
+	/* Global Values */
+
+	.desc {
+		padding-top: 50px;
+	}
+
+	.desc p {
+		color: #2f2f2f;
+	}
+
+	.desc t {
+		color: #34495e;
+		font-weight: 700;
+	}
+
+	.desc imp {
+		padding: 6px;
+		color: white;
+		background: #34495e;
+	}
+
+	.desc more {
+		color: #95a5a6;
+	}
+
+
+	sm {
+		font-size: 12px;
+	}
+
 }
