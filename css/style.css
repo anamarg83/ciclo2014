@@ -386,6 +386,7 @@ body {
 	}
 }
 
+/*
 #slide-3 {
 	background-color: #000;
 	margin: 0 auto;
@@ -442,9 +443,17 @@ body {
 		width: 100%;
 	}
 }
+*/
+
+
+#slide-3 {
+	background-color: #5cBedf;
+	color: #e4e6e5;
+	padding-top: 90px;
+}
 
 #slide-4 {
-	background-color: #f39c12;
+	background-color: #e4e6e5;
 	color: #e4e6e5;
 	padding-top: 90px;
 }
@@ -456,7 +465,8 @@ body {
 
 
 #slide-5 {
-	background-color: #5F83BB;
+	/*background-color: #5F83BB;*/
+	background-color: #5cBedf;
 	color: #e4e6e5;
 	padding-top: 90px;
 }
@@ -464,7 +474,6 @@ body {
 #slide-6 {
 	background-color: #2f2f2f;
 	color: #e4e6e5;
-	padding-bottom: 350px;
 	padding-top: 90px;
 }
 
@@ -649,3 +658,23 @@ body {
 	}
 
 }
+
+.google-maps {
+    position: relative;
+    padding-bottom: 5%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    /*position: absolute;*/
+    top: 0;
+    /*left: 0;*/
+    width: 100% !important;
+    /*height: 100% !important;*/
+}
+
+/*-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------*/
